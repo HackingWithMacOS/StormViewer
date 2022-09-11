@@ -9,17 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     
-    let names = ["Chris", "Eiko", "Takashi", "Alex", "Korina"]
+    @State private var selectedImage: Int?
     
     var body: some View {
-        HSplitView {
-            List(names, id:\.self) { name in
-                Text(name)
+        NavigationView {
+            List(0..<10, selection: $selectedImage) { number in
+                Text("Store \(number)")
             }
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-            Text("Right")
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .frame(width: 150)
+            if let selectedImage = selectedImage {
+                Image(String(selectedImage))
+            } else {
+                Text("Please select an image")
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+            }
         }
+        .navigationTitle("Storm Viewer")
     }
 }
 

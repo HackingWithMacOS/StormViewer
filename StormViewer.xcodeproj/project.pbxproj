@@ -11,6 +11,7 @@
 		E616B3B728CE2BDF00408A39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E616B3B628CE2BDF00408A39 /* ContentView.swift */; };
 		E616B3B928CE2BE000408A39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E616B3B828CE2BE000408A39 /* Assets.xcassets */; };
 		E616B3BC28CE2BE000408A39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E616B3BB28CE2BE000408A39 /* Preview Assets.xcassets */; };
+		E6D4FF5F28CE6E9B00397044 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D4FF5E28CE6E9B00397044 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		E616B3B828CE2BE000408A39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E616B3BB28CE2BE000408A39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E616B3BD28CE2BE000408A39 /* StormViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StormViewer.entitlements; sourceTree = "<group>"; };
+		E6D4FF5E28CE6E9B00397044 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				E616B3B428CE2BDF00408A39 /* StormViewerApp.swift */,
+				E6D4FF5E28CE6E9B00397044 /* AppDelegate.swift */,
 				E616B3B628CE2BDF00408A39 /* ContentView.swift */,
 				E616B3B828CE2BE000408A39 /* Assets.xcassets */,
 				E616B3BD28CE2BE000408A39 /* StormViewer.entitlements */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6D4FF5F28CE6E9B00397044 /* AppDelegate.swift in Sources */,
 				E616B3B728CE2BDF00408A39 /* ContentView.swift in Sources */,
 				E616B3B528CE2BDF00408A39 /* StormViewerApp.swift in Sources */,
 			);
